@@ -10,7 +10,6 @@ function ToyContainer({ toys, onDeleteToy, onUpdateToy }) {
       onUpdateToy={onUpdateToy}
     />
   ));
-
   return <div id="toy-collection">{toyCards}</div>;
 }
 

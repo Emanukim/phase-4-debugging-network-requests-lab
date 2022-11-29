@@ -40,6 +40,7 @@ function ToyForm({ onAddToy }) {
 
   return (
     <div className="container">
+      
       <form onSubmit={handleSubmit} className="add-toy-form">
         <h3>Create a toy!</h3>
         <input
